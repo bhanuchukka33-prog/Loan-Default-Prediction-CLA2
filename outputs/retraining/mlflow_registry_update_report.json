@@ -1,0 +1,15 @@
+{
+    "stage": "Staging",
+    "model_name": "LoanDefaultPrediction",
+    "registered_version": 1,
+    "registered_run_id": "2adbeecf7cf7452fabbe62c5a7d9cd8e",
+    "source_retraining_run_id": "cc54d06cfee24b7ab573165374e6c8eb",
+    "production_version_before": null,
+    "production_version_after": null,
+    "decision_metric": "recall",
+    "v2_decision_metric": 1.0,
+    "v2_recall": 1.0,
+    "recall_quality_gate": "PASSED",
+    "improves_production": true,
+    "promotion_to_production": false
+}

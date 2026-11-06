@@ -1,0 +1,62 @@
+{
+    "stage": "Lab 12.14 - Model Comparison",
+    "test_rows": 29734,
+    "model_v1": {
+        "artifact": "C:\\Users\\bhanu\\OneDrive\\Desktop\\241fa18035\\models\\best_model.pkl",
+        "metrics": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0
+        }
+    },
+    "model_v2": {
+        "artifact": "C:\\Users\\bhanu\\OneDrive\\Desktop\\241fa18035\\models\\retrained_model_v2.pkl",
+        "metrics": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0
+        }
+    },
+    "comparison": [
+        {
+            "metric": "accuracy",
+            "model_v1": 1.0,
+            "model_v2": 1.0,
+            "change_v2_minus_v1": 0.0
+        },
+        {
+            "metric": "precision",
+            "model_v1": 1.0,
+            "model_v2": 1.0,
+            "change_v2_minus_v1": 0.0
+        },
+        {
+            "metric": "recall",
+            "model_v1": 1.0,
+            "model_v2": 1.0,
+            "change_v2_minus_v1": 0.0
+        },
+        {
+            "metric": "f1_score",
+            "model_v1": 1.0,
+            "model_v2": 1.0,
+            "change_v2_minus_v1": 0.0
+        },
+        {
+            "metric": "roc_auc",
+            "model_v1": 1.0,
+            "model_v2": 1.0,
+            "change_v2_minus_v1": 0.0
+        }
+    ],
+    "quality_gate": {
+        "recall_threshold": 0.7,
+        "v1_passed": true,
+        "v2_passed": true,
+        "v2_improved_over_v1": false
+    }
+}

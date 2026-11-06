@@ -1,0 +1,5 @@
+category,metric,value,status,details
+Data Drift,Features with drift,4.0,DRIFT,"loan_amount, income, Credit_Score, Region"
+Prediction Drift,Prediction distribution,0.0,OK,KS statistic
+Prediction Drift,Probability distribution,0.0895607721799959,OK,KS statistic
+Concept Drift,Degraded performance metrics,4.0,DRIFT,"accuracy, recall, f1, roc_auc"

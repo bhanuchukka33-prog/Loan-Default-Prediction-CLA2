@@ -1,0 +1,10 @@
+feature,type,metric,score,p_value,threshold,status
+loan_amount,numerical,KS,0.108428,0.0,0.1,DRIFT
+income,numerical,KS,0.122481,0.0,0.1,DRIFT
+property_value,numerical,KS,0.068251,0.0,0.1,OK
+Credit_Score,numerical,KS,0.124807,0.0,0.1,DRIFT
+LTV,numerical,KS,0.0,1.0,0.1,OK
+loan_purpose,categorical,JS,0.097419,,0.1,OK
+Region,categorical,JS,0.198626,,0.1,DRIFT
+loan_type,categorical,JS,0.0,,0.1,OK
+Gender,categorical,JS,0.0,,0.1,OK

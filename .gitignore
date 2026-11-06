@@ -1,11 +1,9 @@
 .venv/
 __pycache__/
 *.pyc
+.env
+data/
 mlruns/
 mlflow.db
-mlflow.db-shm
-mlflow.db-wal
 logs/
-*.log
-.vscode/
-.env
+requirements_backup/

@@ -1,0 +1,11 @@
+{
+    "lab": "Lab 9 - Failure Injection and Recovery Testing",
+    "tests": {
+        "missing_dataset": true,
+        "missing_evaluation_report": true,
+        "missing_model": true
+    },
+    "total_tests": 3,
+    "failures_detected": 3,
+    "status": "COMPLETED"
+}

@@ -1,0 +1,25 @@
+{
+    "stage": "Lab 12 - Retraining",
+    "model_version": "V2",
+    "previous_production_version": 1,
+    "training_dataset": "data\\processed\\updated_training_data.csv",
+    "training_rows": 120345,
+    "test_rows": 29734,
+    "training_Status_rate": 0.246674,
+    "model_parameters": {
+        "n_estimators": 100,
+        "random_state": 42,
+        "n_jobs": -1,
+        "class_weight": "balanced"
+    },
+    "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "roc_auc": 1.0
+    },
+    "model_path": "models\\retrained_model_v2.pkl",
+    "preprocessor_path": "models\\retrained_preprocessor_v2.pkl",
+    "mlflow_run_id": "cc54d06cfee24b7ab573165374e6c8eb"
+}

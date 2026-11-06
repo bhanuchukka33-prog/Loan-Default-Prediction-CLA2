@@ -1,0 +1,11 @@
+{
+    "quality_gate": "PASSED",
+    "accuracy": 1.0,
+    "accuracy_threshold": 0.8,
+    "macro_f1": 1.0,
+    "f1_threshold": 0.75,
+    "checks": {
+        "accuracy": true,
+        "macro_f1": true
+    }
+}
